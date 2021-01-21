@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"C:/Users/raayy/Documents/Unreal Projects/ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7/.vscode": true,
+		"C:/Users/raayy/Documents/Unreal Projects/ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7/Content": true,
+		"C:/Users/raayy/Documents/Unreal Projects/ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7/DerivedDataCache": true,
+		"C:/Users/raayy/Documents/Unreal Projects/ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7/Intermediate": true,
+		"C:/Users/raayy/Documents/Unreal Projects/ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7/Saved": true
+	}
+}
