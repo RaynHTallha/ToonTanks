@@ -23,8 +23,10 @@ private:
 
 	void CalculateMoveInput(float Value);
 	void CalculateRotationInput(float Value);
-
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Movment", meta = (AllowPrivateAccess = "true"))	
 	float MoveSpeed = 100.0f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Movment", meta = (AllowPrivateAccess = "true"))
 	float RotateSpeed = 100.0f;
 	
 	void Move();
