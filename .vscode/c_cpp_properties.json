@@ -3,7 +3,7 @@
         {
             "name": "ToonTanksEditor Editor Win64 Development (ToonTanks)",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "C:\\Users\\raayy\\Documents\\Unreal Projects\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\.vscode\\compileCommands_ToonTanks.json",
+            "compileCommands": "C:\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\.vscode\\compileCommands_ToonTanks.json",
             "cStandard": "c17",
             "cppStandard": "c++17"
         }

@@ -2,6 +2,7 @@
 
 #include "PawnTurret.h"
 #include "Kismet/GameplayStatics.h"
+#include "PawnTank.h"
 
 // Called when the game starts or when spawned
 void APawnTurret::BeginPlay()
@@ -9,6 +10,17 @@ void APawnTurret::BeginPlay()
 	Super::BeginPlay();
 	
     GetWorld()->GetTimerManager().SetTimer(FireRateTimerHandle, this, &APawnTurret::CheckFireCondition, FireRate, true);
+
+    PlayerPawn = Cast<APawnTank>(UGameplayStatics::GetPlayerPawn(this, 0));
+
+    
+}
+
+void APawnTurret::HandleDestruction() 
+{
+    // Call bse pawn calss HandleDestruction to play effects.
+    Super::HandleDestruction();
+    Destroy();
 }
 
 // Called every frame
@@ -16,12 +28,33 @@ void APawnTurret::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+    if(!PlayerPawn || ReturnDistanceToPlayer() > FireRange)
+    {
+        return;
+    }
+
+    RotateTurret(PlayerPawn->GetActorLocation());
 }
 void APawnTurret::CheckFireCondition() 
 {
     // if Player == null || is dead then Bail!!
-
+    if(!PlayerPawn)
+    {
+        return;
+    }
     // if player is in Ranger Then Fire!!
+    if(ReturnDistanceToPlayer() <= FireRange)
+    {
+        //Fire
+        Fire();
+    }
+}
 
-    UE_LOG(LogTemp, WArning, TEXT("Fire Condition CHecked!!"));
+float APawnTurret::ReturnDistanceToPlayer() 
+{
+    if(!PlayerPawn)
+    {
+        return 0.0f;
+    }
+    return FVector::Dist(PlayerPawn-> GetActorLocation(), GetActorLocation());
 }

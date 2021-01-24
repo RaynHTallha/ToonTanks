@@ -5,7 +5,7 @@
 			"name": "ToonTanks (Debug)",
 			"request": "launch",
 			"preLaunchTask": "ToonTanks Win64 Debug Build",
-			"program": "C:\\Users\\raayy\\Documents\\Unreal Projects\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"program": "C:\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\Binaries\\Win64\\UE4-Win64-Debug.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
@@ -18,7 +18,7 @@
 			"name": "ToonTanks (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "ToonTanks Win64 DebugGame Build",
-			"program": "C:\\Users\\raayy\\Documents\\Unreal Projects\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"program": "C:\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
@@ -31,7 +31,7 @@
 			"name": "ToonTanks (Development)",
 			"request": "launch",
 			"preLaunchTask": "ToonTanks Win64 Development Build",
-			"program": "C:\\Users\\raayy\\Documents\\Unreal Projects\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\Binaries\\Win64\\UE4.exe",
+			"program": "C:\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\Binaries\\Win64\\UE4.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
@@ -44,7 +44,7 @@
 			"name": "ToonTanks (Shipping)",
 			"request": "launch",
 			"preLaunchTask": "ToonTanks Win64 Shipping Build",
-			"program": "C:\\Users\\raayy\\Documents\\Unreal Projects\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"program": "C:\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
@@ -57,7 +57,7 @@
 			"name": "ToonTanks (Test)",
 			"request": "launch",
 			"preLaunchTask": "ToonTanks Win64 Test Build",
-			"program": "C:\\Users\\raayy\\Documents\\Unreal Projects\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"program": "C:\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\Binaries\\Win64\\UE4-Win64-Test.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
@@ -72,7 +72,7 @@
 			"preLaunchTask": "ToonTanksEditor Win64 Debug Build",
 			"program": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
 			"args": [
-				"C:\\Users\\raayy\\Documents\\Unreal Projects\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\ToonTanks.uproject"
+				"C:\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\ToonTanks.uproject"
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
 			"stopAtEntry": false,
@@ -86,7 +86,7 @@
 			"preLaunchTask": "ToonTanksEditor Win64 DebugGame Build",
 			"program": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
 			"args": [
-				"C:\\Users\\raayy\\Documents\\Unreal Projects\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\ToonTanks.uproject"
+				"C:\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\ToonTanks.uproject"
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
 			"stopAtEntry": false,
@@ -100,7 +100,7 @@
 			"preLaunchTask": "ToonTanksEditor Win64 Development Build",
 			"program": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
 			"args": [
-				"C:\\Users\\raayy\\Documents\\Unreal Projects\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\ToonTanks.uproject"
+				"C:\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\ToonTanks.uproject"
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
 			"stopAtEntry": false,
@@ -117,7 +117,7 @@
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=\"C:\\Users\\raayy\\Documents\\Unreal Projects\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\ToonTanks.uproject\"",
+				"-project=\"C:\\ToonTanks-0bb7f3069a9bef57dd18ae5ee625d51e795e23c7 4.26\\ToonTanks.uproject\"",
 				"-game",
 				"-engine"
 			],
