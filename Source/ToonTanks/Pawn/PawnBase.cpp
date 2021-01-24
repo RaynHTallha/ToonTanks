@@ -45,7 +45,7 @@ void APawnBase::Fire()
 		TempProjectile->SetOwner(this);
 	}
 
-	UE_LOG(LogTemp, Warning, TEXT("Fire Condition Success"));
+	
 
 }
 
