@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "ProjectileBase.generated.h"
 
+
 class UProjectileMovementComponent;
 UCLASS()
 class TOONTANKS_API AProjectileBase : public AActor
@@ -33,6 +34,8 @@ private:
 	USoundBase* HitSound;
 	UPROPERTY(EditAnywhere, Category = "Effects")
 	USoundBase* LaunchSound;
+	UPROPERTY(EditAnywhere, Category = "Effects")
+	TSubclassOf<UMatineeCameraShake> HitShake;
 	
 	// FUNCTIONS
 	UFUNCTION()	
